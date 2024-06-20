@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(212, 212, 212);
+}
+.grid-container {
+    display: grid;
+    background-color: #2196F3;
+  }
+.grid-containers {
+    display: grid;
+    background-color: #ffffff;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  p#judul{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  p#content{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px 12px 12px 12px;
+  }
+  div#content-celcius{
+    padding: 12px 12px 12px 12px;
+  }
+  textarea{
+    width: 500px;
+    height: 100px;
+  }
+
+  .flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 5px;
+    font-size: 30px;
+  }
+  button{
+    padding: 12px;
+    margin: 10px;
+    width: 100px;
+  }
+  button#konversi{
+    background-color: green;
+  }
+  button#reset{
+    background-color: red;
+  }
+  button#reverse{
+    background-color: orange;
+  }

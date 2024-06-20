@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Suhu</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="grid-container">
+        <div>
+            <h1>Calculator Suhu</h1>
+            <p id="judul">Masukkan Suhu Derajat Celcius (°C) ke kotak dibawah,lalu klik tombol Konversi
+                untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (°F)
+            </p>
+        </div>
+    </div>
+    <div class="grid-containers">
+        <div>
+            <p id="content">Celcius (°C)</p>
+        </div>
+        <div id="content-celcius">
+            <textarea name="number" id="celcius" ></textarea>
+        </div>
+    </div>
+    <div class="flex-container">
+        <div>
+            <button id="konversi">Konversi</button>
+            <button id="reset">Reset</button>
+            <button id="reverse">Reverse</button> 
+        </div>
+    </div>
+    <div class="grid-containers">
+        <div>
+            <p id="content">Farenheit (°F)</p>
+        </div>
+        <div id="content-celcius">
+            <textarea name="number" id="Fahrenheit"></textarea>
+        </div>
+    </div>
+    <div class="grid-containers">
+        <div>
+            <p id="content">Cara Kalkulasi</p>
+        </div>
+        <div id="content-celcius">
+            <textarea name="number" id="kalkulasi" readonly></textarea>
+        </div>
+    </div>
+    <div class="grid-containers">
+        <div>
+            <p id="content">Suhu S dalam derajat Fahrenheit (°F)
+                sama dengan suhu S dalam derajat Celcius (°C) kali
+                9/5 tambah 32
+            </p>
+            <p id="content">
+                S(°F) = (S(°C) x 9/5) + 32
+            </p>
+            <p id="content">
+                atau
+                S(°F) = (S(°C) x 1.8) + 32
+            </p>
+            
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
